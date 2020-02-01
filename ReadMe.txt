@@ -20,3 +20,5 @@ git 命令：
 创建+切换分支：git checkout -b <name>或者git switch -c <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+关联一个远程库：git remote add origin git@server-name:path/name.git
+本地推送到远程：git push origin master
